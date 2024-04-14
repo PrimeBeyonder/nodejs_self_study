@@ -8,6 +8,9 @@ const fileOps = async () =>{
         //Read Data From Lorem.txt
         const data = await fsPromises.readFile(path.join(__dirname,"text" , 'lorem.txt'), "utf-8");
 
+        //fsPromises.unlink (delete)
+
+
         //Write data to lorem.txt(overwrite)
         await fsPromises.writeFile(path.join(__dirname,"text" , 'lorem.txt'),  "Hi I rewrite a Lorem.txt file", "utf-8");
 
