@@ -1,0 +1,21 @@
+TestIng From WriteFile
+
+Appending vs. Overwriting:
+
+fs.appendFile: Appends data to the end of a file. If the file doesn't exist, it will be created.
+fs.writeFile: Writes data to a file, overwriting the file if it already exists. If the file doesn't exist, it will be created.
+Data Writing:
+
+fs.appendFile: The data is simply appended to the end of the file.
+fs.writeFile: The data is written to the file, replacing any existing content.
+File Creation:
+
+fs.appendFile: If the file doesn't exist, it will be created. If it does exist, the data will be appended to it.
+fs.writeFile: If the file doesn't exist, it will be created. If it does exist, it will be overwritten with the new data.
+Performance:
+
+fs.appendFile: Since it only appends data to the end of the file, it can be more efficient for large files, as it doesn't need to rewrite the entire file.
+fs.writeFile: It rewrites the entire file every time, so it may be less efficient for large files, especially if you're frequently writing small amounts of data.
+Error Handling:
+
+Both methods handle errors similarly. They accept a callback function as the last argument, which receives an error object if an error occurs during the operation.

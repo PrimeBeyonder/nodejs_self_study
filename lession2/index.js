@@ -1,22 +1,35 @@
-const { log } = require("console");
-const fs = require("fs");
+
+const fsPromises = require("fs").promises;
 const path = require("path");
 
-fs.readFile(path.join(__dirname, "text" , 'starter.txt'), 'utf-8',(err , data) => {
-    if(err) throw err;
-    console.log(data); //Buffer data
-    console.log(data.toString()); //string, UTF8 = string
-})
+const fileOps = async () =>{
+    try {
+
+        //Read Data From Lorem.txt
+        const data = await fsPromises.readFile(path.join(__dirname,"text" , 'lorem.txt'), "utf-8");
+
+        //Write data to lorem.txt(overwrite)
+        await fsPromises.writeFile(path.join(__dirname,"text" , 'lorem.txt'),  "Hi I rewrite a Lorem.txt file", "utf-8");
 
 
-fs.writeFile(path.join(__dirname, "text" , 'reply.txt'), "Nice To Meet You, Im from Wrte",(err) => {
-    if(err) throw err;
-    console.log("Write Complete");
-})
+        // Write data to promiseWrite.txt
+        await fsPromises.writeFile(path.join(__dirname,"text" , 'promiseWrite.txt'), data);
+
+        // Append additional data to promiseWrite.txt
+        await fsPromises.appendFile(path.join(__dirname,"text" , 'promiseWrite.txt'), '\n\n Nice To Meet You.');
+
+        // Rename promiseWrite.txt to NewpromiseWrite.txt
+        await fsPromises.rename(path.join(__dirname,"text" , 'promiseWrite.txt'), path.join(__dirname,"text" , 'NewpromiseWrite.txt'));
 
 
-console.log("hello")
-process.on("uncaughtException" , err => {
-    console.error(`There is an Error : ${err}`);
-    process.exit(1)
-})
+        // Read data from NewpromiseWrite.txt
+        const newData = await fsPromises.readFile(path.join(__dirname, "text", 'NewpromiseWrite.txt'), "utf-8");
+
+
+        console.log(newData);
+    } catch (error) {
+        console.error(error);
+    }
+}
+fileOps();
+
