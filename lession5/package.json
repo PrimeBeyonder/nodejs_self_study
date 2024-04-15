@@ -2,10 +2,10 @@
   "name": "lession4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sever.js",
   "scripts": {
-    "start": "node index",
-    "dev" : "nodemon index"
+    "start": "node sever",
+    "dev" : "nodemon sever"
   },
   "author": "",
   "license": "ISC",
