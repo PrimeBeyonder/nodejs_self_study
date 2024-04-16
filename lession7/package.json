@@ -1,0 +1,20 @@
+{
+  "name": "lession6",
+  "version": "1.0.0",
+  "description": "express Tuto",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node sever",
+    "dev": "nodemon sever"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
