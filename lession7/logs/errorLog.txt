@@ -1,2 +1,0 @@
-2024-04-15	16:00:21	95fec77b-e308-49fc-8205-5b2fcf5877ac	TypeError	fsPromises.readFil is not a function
-2024-04-16	14:19:37	926a314e-29da-4fbe-9a08-89b5406a4364	SyntaxError	Unexpected token '<', "<!DOCTYPE "... is not valid JSON

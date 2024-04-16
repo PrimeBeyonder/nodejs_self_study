@@ -27,3 +27,17 @@
 20240416	15:50:53	e0d0e1bc-bf33-4d12-975f-192457b55888	GET	undefined	/css/css/style.css
 20240416	15:50:57	661073ca-e607-4ca2-924e-5825b3eb7f7b	GET	undefined	/
 20240416	15:50:57	1549d0b4-d0a9-493a-a5e2-db90f20c9ef0	GET	undefined	/css/style.css
+20240416	15:54:35	4991dd23-6943-4cb0-8161-c95f11b17eb5	GET	undefined	/
+20240416	15:54:35	912739f8-8865-4b6a-971e-caeea02ff0e5	GET	undefined	/css/style.css
+20240416	15:57:19	4b42e041-e7d7-4ba6-830d-4b51cadaff40	GET	undefined	/
+20240416	15:57:20	b4f4054c-29a1-427e-87eb-7d44493a5cdb	GET	undefined	/css/style.css
+20240416	15:57:20	42ab2f28-63d1-44d6-bcef-98b9cc72e078	GET	undefined	/
+20240416	15:57:20	535489f1-6e4b-4da5-b632-c441b38a8910	GET	undefined	/css/style.css
+20240416	15:57:41	193712c1-ed2a-465c-93c5-17233a1c0fb7	OPTIONS	https://www.google.com	/
+20240416	15:57:41	7fb3ce78-bf2a-40fe-9bb3-a9bb7c1ef9d9	GET	https://www.google.com	/
+20240416	15:59:37	76280bd1-1f65-4555-833c-55221fe9b11f	OPTIONS	https://www.google.com	/
+20240416	15:59:37	1f7cd9ad-970d-4876-a943-c1cdee640b68	GET	https://www.google.com	/
+20240416	16:05:03	2c60d572-f085-4fc5-86c1-1fcb01861edc	OPTIONS	https://www.google.com	/
+20240416	16:05:03	48819e65-8506-4ba8-b3c7-4be1e3936a6e	GET	https://www.google.com	/
+20240416	16:05:23	c802fbdb-ca69-4062-9c82-e337b572f730	OPTIONS	https://www.google.com	/
+20240416	16:05:23	49a70c30-73b3-4f4c-a6ca-7dbad1fd2069	GET	https://www.google.com	/
