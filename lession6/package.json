@@ -1,0 +1,19 @@
+{
+  "name": "lession4",
+  "version": "1.0.0",
+  "description": "Node.js Web Sever Tuto",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node sever",
+    "dev" : "nodemon sever"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
