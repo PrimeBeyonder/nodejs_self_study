@@ -10,6 +10,8 @@ class Emitter extends EventEmitter {}
 
 //initialize obj
 const myEmitter = new Emitter();
+
+
 myEmitter.on("log" , (msg, fileName) => logEvents(msg, fileName));
 const PORT = process.env.PORT || 3500;
 
@@ -18,15 +20,18 @@ const severFile = async (filePath, contentType, response) => {
         const rawData = await fsPromises.readFile(
             filePath,
              !contentType.includes("image") ? "utf-8" : ""
-            ); // Use fs.readFile
+            );  
         const data = contentType === "application/json" ? 
         JSON.parse(rawData) : rawData;
+            console.log(data);
         response.writeHead(
             filePath.includes("404.html") ? 404:200,
              { 'Content-Type': contentType });
         response.end(
             contentType === "application/json" ? JSON.stringify(data) : data
         );
+
+
     } catch (error) {
         console.log(error);
         myEmitter.emit("log" , `${error.name}\t${error.message}` , "errorLog.txt");
@@ -74,7 +79,7 @@ const sever = http.createServer((req , res)=> {
                 : contentType === 'text/html'
                     ? path.join(__dirname, 'views', req.url)
                     : path.join(__dirname, req.url);
-
+console.log(filePath);
 
                     //make .html extention not required in the browser
                     if(!extension && req.url.slice(-1) !== '/'){
@@ -88,6 +93,7 @@ const sever = http.createServer((req , res)=> {
                     }else{
                         //404
                         //301 redurect
+                        console.log(path.parse(filePath));
                         switch(path.parse(filePath).base){
                             case "old-page-html":
                                 res.writeHead(301, {"location": "/new-page.html"});
