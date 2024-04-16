@@ -1,7 +1,35 @@
+//three type of middleware
+//1-Built-In middleware tihandle urlencoded data
+//in other words , form data
+//2-Custome middleware
+//3-middleware from third party
+
+
 const express = require("express");
 const app = express();
 const path = require("path");
+const {logger } = require("./middleware/logEvent");
 const PORT = process.env.PORT || 3500;
+
+
+//custome middleware logger
+
+app.use(logger);
+
+
+
+//1-Built-In middleware tihandle urlencoded data
+//in other words , form data
+app.use(express.urlencoded({extended: false}));
+
+//built-in middleware for json
+app.use(express.json());
+
+//sever static files
+app.use(express.static(path.join(__dirname, "/public")))
+
+
+
 
 app.get("^/$|/index(.html)?" , (req,  res) => {
     // res.sendFile("./views/index.html" , {root: __dirname});

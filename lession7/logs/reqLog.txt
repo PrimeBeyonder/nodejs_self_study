@@ -21,3 +21,9 @@
 2024-04-16	14:20:53	48b0afca-92de-4e91-80d7-8d077efe5091	/css/style.css	GET
 2024-04-16	14:21:42	2ccbaa67-7e1e-4549-9659-24af16477739	/	GET
 2024-04-16	14:21:42	69e3fdbb-bdf7-4c52-a212-1f113615ab1a	/css/style.css	GET
+2024-04-16	15:44:15	573d1bcb-f0de-43d5-88af-219d8cc75b25	GET	undefined	/
+2024-04-16	15:44:15	cfdb5326-a037-42e8-ac55-357dd808c0cb	GET	undefined	/css/style.css
+20240416	15:50:53	20ade19d-f66c-43f2-8c01-aaed53ac99e3	GET	undefined	/css/styles.ss
+20240416	15:50:53	e0d0e1bc-bf33-4d12-975f-192457b55888	GET	undefined	/css/css/style.css
+20240416	15:50:57	661073ca-e607-4ca2-924e-5825b3eb7f7b	GET	undefined	/
+20240416	15:50:57	1549d0b4-d0a9-493a-a5e2-db90f20c9ef0	GET	undefined	/css/style.css
