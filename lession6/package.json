@@ -1,16 +1,17 @@
 {
-  "name": "lession4",
+  "name": "lession6",
   "version": "1.0.0",
-  "description": "Node.js Web Sever Tuto",
+  "description": "express Tuto",
   "main": "sever.js",
   "scripts": {
     "start": "node sever",
-    "dev" : "nodemon sever"
+    "dev": "nodemon sever"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "date-fns": "^3.6.0",
+    "express": "^4.19.2",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
