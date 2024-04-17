@@ -1,0 +1,21 @@
+{
+  "name": "lession9",
+  "version": "1.0.0",
+  "description": "rest api",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node sever",
+    "dev": "nodemon sever"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
