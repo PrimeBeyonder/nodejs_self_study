@@ -1,0 +1,50 @@
+2024-04-15	15:59:04	09d243bc-aa5e-4671-875b-e173b8b4ef2d	/views/new-page.html	GET
+2024-04-15	15:59:04	b9cf365b-bc92-433c-a561-b2deca337a3a	/css/style.css	GET
+2024-04-15	15:59:18	16217f1e-0587-4e21-be0f-9519ea78d8af	/	GET
+2024-04-15	15:59:18	f714036f-09a7-4221-a844-23777e042676	/css/style.css	GET
+2024-04-15	16:00:21	8d0e80f3-2022-440a-a8fe-e0f9a464ddbf	/	GET
+2024-04-16	14:08:33	b8143425-4bc0-47c5-a78f-aecf8c2cef54	/	GET
+2024-04-16	14:08:33	e612ac72-7740-45d4-beac-3ca4336c4587	/css/style.css	GET
+2024-04-16	14:08:33	b8c1b9ca-9d3f-4d8b-a7b7-c8ed98b8f808	/favicon.ico	GET
+2024-04-16	14:08:37	00d2ea7a-7324-438c-a417-b26ae7200674	/css/style.css	GET
+2024-04-16	14:08:44	f182d691-a266-4e04-8142-631caf9dc25e	/df	GET
+2024-04-16	14:08:44	cf654eef-b67a-4f14-bee8-480a7be22eb2	/css/style.css	GET
+2024-04-16	14:13:50	f52f7cd3-718b-46d2-8525-dcb6f60d0678	/	GET
+2024-04-16	14:13:50	da266ef3-1859-4668-a89c-64371a58fe1c	/css/style.css	GET
+2024-04-16	14:19:33	b51fe5a9-1638-44ab-9f93-6b33a71a5032	/	GET
+2024-04-16	14:19:33	22983eef-3066-4157-a2fd-581b74f4c5ee	/css/style.css	GET
+2024-04-16	14:19:37	3a5335e3-9d32-4f73-b286-ac4d9975cb5b	/data.json	GET
+2024-04-16	14:19:49	4f5cfa8f-7c91-48c8-8bb0-be6ddbeb0855	/data/data.json	GET
+2024-04-16	14:20:25	725919f3-0a47-409c-b72a-cf747064d670	/data	GET
+2024-04-16	14:20:25	e5e92491-e9f8-45d1-917b-6fc12a9781bd	/css/style.css	GET
+2024-04-16	14:20:53	74d5719b-7b72-47d4-b5f8-16d14375466a	/	GET
+2024-04-16	14:20:53	48b0afca-92de-4e91-80d7-8d077efe5091	/css/style.css	GET
+2024-04-16	14:21:42	2ccbaa67-7e1e-4549-9659-24af16477739	/	GET
+2024-04-16	14:21:42	69e3fdbb-bdf7-4c52-a212-1f113615ab1a	/css/style.css	GET
+2024-04-16	15:44:15	573d1bcb-f0de-43d5-88af-219d8cc75b25	GET	undefined	/
+2024-04-16	15:44:15	cfdb5326-a037-42e8-ac55-357dd808c0cb	GET	undefined	/css/style.css
+20240416	15:50:53	20ade19d-f66c-43f2-8c01-aaed53ac99e3	GET	undefined	/css/styles.ss
+20240416	15:50:53	e0d0e1bc-bf33-4d12-975f-192457b55888	GET	undefined	/css/css/style.css
+20240416	15:50:57	661073ca-e607-4ca2-924e-5825b3eb7f7b	GET	undefined	/
+20240416	15:50:57	1549d0b4-d0a9-493a-a5e2-db90f20c9ef0	GET	undefined	/css/style.css
+20240416	15:54:35	4991dd23-6943-4cb0-8161-c95f11b17eb5	GET	undefined	/
+20240416	15:54:35	912739f8-8865-4b6a-971e-caeea02ff0e5	GET	undefined	/css/style.css
+20240416	15:57:19	4b42e041-e7d7-4ba6-830d-4b51cadaff40	GET	undefined	/
+20240416	15:57:20	b4f4054c-29a1-427e-87eb-7d44493a5cdb	GET	undefined	/css/style.css
+20240416	15:57:20	42ab2f28-63d1-44d6-bcef-98b9cc72e078	GET	undefined	/
+20240416	15:57:20	535489f1-6e4b-4da5-b632-c441b38a8910	GET	undefined	/css/style.css
+20240416	15:57:41	193712c1-ed2a-465c-93c5-17233a1c0fb7	OPTIONS	https://www.google.com	/
+20240416	15:57:41	7fb3ce78-bf2a-40fe-9bb3-a9bb7c1ef9d9	GET	https://www.google.com	/
+20240416	15:59:37	76280bd1-1f65-4555-833c-55221fe9b11f	OPTIONS	https://www.google.com	/
+20240416	15:59:37	1f7cd9ad-970d-4876-a943-c1cdee640b68	GET	https://www.google.com	/
+20240416	16:05:03	2c60d572-f085-4fc5-86c1-1fcb01861edc	OPTIONS	https://www.google.com	/
+20240416	16:05:03	48819e65-8506-4ba8-b3c7-4be1e3936a6e	GET	https://www.google.com	/
+20240416	16:05:23	c802fbdb-ca69-4062-9c82-e337b572f730	OPTIONS	https://www.google.com	/
+20240416	16:05:23	49a70c30-73b3-4f4c-a6ca-7dbad1fd2069	GET	https://www.google.com	/
+20240417	09:50:08	0f9f24bd-9fb3-489a-80ab-046d56462b53	GET	undefined	/
+20240417	09:50:08	0a3cc982-8858-44e3-97a2-ccb6099e3b76	GET	undefined	/css/style.css
+20240417	09:50:09	f35f4137-358c-4c08-a2ae-d6bbc8d136a9	GET	undefined	/favicon.ico
+20240417	09:50:30	b82dd0c8-0cc2-4388-b9b5-0645292196d8	GET	undefined	/chain
+20240417	09:50:35	bd10e301-b667-4c4c-826c-a32e59fbd184	GET	undefined	/
+20240417	09:50:36	2c16a010-08ad-40d1-9794-039e8721f113	GET	undefined	/css/style.css
+20240417	09:50:48	ee7f403c-60a7-4778-b839-722963e1649b	GET	undefined	/
