@@ -12,23 +12,13 @@ const cors = require("cors");
 const {logger}  = require("./middleware/logEvent");
 const errorHandler = require('./middleware/errorHandler');
 const PORT = process.env.PORT || 3500;
+const corsOptions = require("./config/crosOptions");
 
 
 //custome middleware logger
 app.use(logger);
 
-//corss origin Res Sharing
-const whtieList = ['https://www.google.com', 'http://127.0.0.1:5500', 'http://localhost:3500'];
-const corsOptions = {
-    origin: (origin, callback) => {
-        if (whtieList.indexOf(origin) !== -1 || !origin) {
-            callback(null, true)
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
-    optionsSuccessStatus: 200
-}
+//cross origin Resource Sharing
 app.use(cors(corsOptions));
 
 

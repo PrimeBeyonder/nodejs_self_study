@@ -85,3 +85,13 @@
 20240417	10:26:46	009cd694-151d-4fb2-9893-9dccf2c2f145	GET	undefined	/employees/2
 20240417	10:26:48	a694b327-6767-48b5-ae23-769b5054eaee	GET	undefined	/employees/3
 20240417	10:26:49	81e3d294-9bfb-431a-8f33-ff255dc87e16	GET	undefined	/employees/4
+20240417	10:50:35	a394c69f-e44c-4d05-a70f-9818d3e70bc0	GET	undefined	/
+20240417	10:50:35	f36795a8-ca32-43b3-ba24-7ba9d5c83c91	GET	undefined	/css/style.css
+20240417	10:50:38	81543b19-bbb8-4f5f-8902-716c9269d342	GET	undefined	/employees
+20240417	10:50:56	cf985913-878e-41ff-9ffe-153cc746cdb1	GET	undefined	/employees
+20240417	10:51:31	2da612dd-bc6b-42a4-865d-e2b159de00d6	GET	undefined	/employees
+20240417	10:52:21	d0b25ae5-ab52-45b6-b400-5cce845fb7e0	POST	undefined	/employees
+20240417	10:52:51	b98e54f7-6a67-4cf1-beef-1fa9ac243a06	POST	undefined	/employees
+20240417	10:53:53	2f77efd2-e70f-4580-bcae-0bd4c7f7a949	PUT	undefined	/employees
+20240417	10:54:28	bce82af5-c004-4ca7-87ca-b207f308b5bf	DELETE	undefined	/employees
+20240417	10:54:43	81007130-8d70-440c-8361-e92823957182	GET	undefined	/employees/2
