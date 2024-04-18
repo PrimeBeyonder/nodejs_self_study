@@ -1,0 +1,18 @@
+  // if(req.url === '/' || req.url === "index.html"){
+    //     res.statusCode = 200;
+    //     res.setHeader("Context-Type" , "text/html");
+    //     path = path.join(__dirname, "views" , "index.html");
+    //     fs.readFile(path , "utf-8" , (err, data) => {
+    //         res.end(data);
+    //     });
+    //}
+
+    // switch (req.url){
+    //     case '/': res.statusCode = 200;
+    //     filePath = path.join(__dirname, "views" , "index.html");
+    //     fs.readFile(path , "utf-8" , (err, data) => {
+    //          res.end(data);
+    //     });
+    //     break;
+    // }
+    Just some random text.
