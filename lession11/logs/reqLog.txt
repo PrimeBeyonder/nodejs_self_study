@@ -133,3 +133,13 @@
 20240418	12:59:29	37b05853-58f4-402d-baf7-7ff748d4e954	GET	undefined	/refresh
 20240418	12:59:41	4e3d6fe0-5d35-4eee-8349-46843d470ba6	GET	undefined	/refresh
 20240418	12:59:42	6fe46df3-ce3a-46d9-95c0-0d9732e3496b	GET	undefined	/refresh
+20240418	16:37:46	8d24afc9-d168-4de2-8626-c4b2112d60e2	GET	undefined	/
+20240418	16:37:46	f9b0b175-aa25-4b7a-95bc-74bd862e611d	GET	undefined	/css/style.css
+20240418	16:37:47	b21c1216-dde6-4daa-b61c-d038c039b1fb	GET	undefined	/favicon.ico
+20240418	16:41:18	118b6a8b-89ad-497e-837b-1ad8f46d3659	GET	undefined	/auth
+20240418	16:41:36	b54930de-d263-46df-9e68-26e95c0c78f9	POST	undefined	/auth
+20240418	16:42:11	594d1775-0c04-4466-b0ea-5b8f918cbaa5	GET	undefined	/logout
+20240418	16:42:38	07a11226-4823-470b-8696-eddcc6e14670	POST	undefined	/refresh
+20240418	16:42:59	09221c4d-6bd4-4410-b00f-cbceddbecec4	GET	undefined	/refresh
+20240418	16:43:47	0b49c479-594b-401f-8af3-5ad8ac7170f8	POST	undefined	/auth
+20240418	16:43:54	568d9044-5522-4c9e-bd7c-a638fdd8722c	POST	undefined	/employees
