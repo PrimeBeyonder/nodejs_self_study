@@ -173,3 +173,7 @@
 20240419	10:24:36	a488631e-5eb1-4ab6-ad53-540b54832d71	POST	undefined	/employees
 20240419	10:24:42	f6a55fec-e577-4a2d-924c-d5b1c9d7d20c	POST	undefined	/employees
 20240419	10:24:45	6accf92b-af8f-4bd7-a61d-efd8acce6efe	DELETE	undefined	/employees
+20240419	11:18:17	55703a1e-930d-402d-bc29-be7ff8ba96ae	GET	undefined	/register
+20240419	11:18:24	c7d8042e-9bb9-4499-a941-8f6715e32a46	POST	undefined	/register
+20240419	11:19:18	44665606-1386-43a6-aff0-cea5172f9375	POST	undefined	/register
+20240419	11:27:40	6a2de3b4-712a-4fe1-b15b-f899cbab0185	POST	undefined	/register
