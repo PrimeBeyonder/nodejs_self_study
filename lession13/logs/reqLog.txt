@@ -177,3 +177,15 @@
 20240419	11:18:24	c7d8042e-9bb9-4499-a941-8f6715e32a46	POST	undefined	/register
 20240419	11:19:18	44665606-1386-43a6-aff0-cea5172f9375	POST	undefined	/register
 20240419	11:27:40	6a2de3b4-712a-4fe1-b15b-f899cbab0185	POST	undefined	/register
+20240419	14:36:03	815efef1-e7c1-4b56-ba06-b95467e43e0e	POST	undefined	/register
+20240419	14:36:06	0204f7a7-cd16-47fc-ad41-199ac17f1455	POST	undefined	/register
+20240419	14:36:48	7b26e200-8027-4a80-8bde-e2155dab9e0d	POST	undefined	/auth
+20240419	14:38:07	9c987514-0db2-4f5b-90a0-626b5b12f515	GET	undefined	/refresh
+20240419	14:38:41	28db9dd0-c277-447c-a5a7-ee9a489c6f69	GET	undefined	/refresh
+20240419	14:38:56	10539513-0b5b-426d-a8b7-3f34f7e5ebde	POST	undefined	/auth
+20240419	14:39:08	bb8adb36-fa58-4976-9226-57e6ec81aaf4	GET	undefined	/refresh
+20240419	14:40:06	26e82379-f2ca-4e18-80ef-02d9c5f82d99	POST	undefined	/auth
+20240419	14:40:26	d5e51d13-451f-4b16-8971-daba4e109c4d	GET	undefined	/log
+20240419	14:40:28	bc632cf3-f5c1-4e96-971a-279a9722869a	GET	undefined	/logou
+20240419	14:40:30	f68545a2-b610-4b77-b649-6381b1056bd9	GET	undefined	/logout
+20240419	14:40:47	1abee8b9-afea-489d-9241-058afc533fd6	GET	undefined	/logout
