@@ -1,32 +1,36 @@
 const usersDB = {
-    users: require("../model/users.json"),
-    setUsers: function (data) {this.users = data}
+    users: require('../model/users.json'),
+    setUsers: function (data) { this.users = data }
 }
-const fsPromise = require("fs").promises;
-const path = require("path");
-const bcrypt = require("bcrypt");
+const fsPromises = require('fs').promises;
+const path = require('path');
+const bcrypt = require('bcrypt');
 
-const handleNewUser = async (req , res) => {
-    const{user , pwd } = req.body;
-    if(!user || !pwd) return res.status(400).json({"message" : "UserName and Password are Required."});
-    //check for duplicate usernames in the db
-    const duplicate = usersDB.users.find(person =>person.username === user);
-    if(duplicate) return res.sendStatus(409); //conflict
+const handleNewUser = async (req, res) => {
+    const { user, pwd } = req.body;
+    if (!user || !pwd) return res.status(400).json({ 'message': 'Username and password are required.' });
+    // check for duplicate usernames in the db
+    const duplicate = usersDB.users.find(person => person.username === user);
+    if (duplicate) return res.sendStatus(409); //Conflict 
     try {
         //encrypt the password
         const hashedPwd = await bcrypt.hash(pwd, 10);
         //store the new user
-        const newUser = {"username" : user , "password" : hashedPwd};
-        usersDB.setUsers([...usersDB.users , newUser]);
-        await fsPromise.writeFile(
-            path.join(__dirname, ".." , "model" , "users.json"),
+        const newUser = {
+            "username": user,
+            "roles": { "User": 2001 },
+            "password": hashedPwd
+        };
+        usersDB.setUsers([...usersDB.users, newUser]);
+        await fsPromises.writeFile(
+            path.join(__dirname, '..', 'model', 'users.json'),
             JSON.stringify(usersDB.users)
         );
         console.log(usersDB.users);
-        res.status(201).json({"success" : `New User ${user} has been created!`});
-    } catch (error) {
-        res.status(500).json({"message" : error.message});
+        res.status(201).json({ 'success': `New user ${user} created!` });
+    } catch (err) {
+        res.status(500).json({ 'message': err.message });
     }
 }
 
-module.exports = {handleNewUser};
+module.exports = { handleNewUser };

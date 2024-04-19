@@ -1,1 +1,3 @@
 20240417	09:50:48	8ade2b2a-fd6b-484f-bfc5-a0da01a41436	ReferenceError: __dirnae is not defined
+20240419	10:15:03	1eade2e6-6cec-4818-9c86-0e632a4dc184	TypeError: Cannot read properties of undefined (reading 'username')
+20240419	10:16:31	80c5ce96-fb69-45db-b553-24731c471e49	TypeError: Cannot read properties of undefined (reading 'username')
